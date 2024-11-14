@@ -1,0 +1,13 @@
+.AntSelectSingle__container.yy-select {
+  width: 100%;
+}
+
+.AntSelectSingle__loading {
+  padding-bottom: 16px;
+  padding-top: 16px;
+  text-align: center;
+}
+
+.AntSelectSingle__readOnly {
+  pointer-events: none;
+}

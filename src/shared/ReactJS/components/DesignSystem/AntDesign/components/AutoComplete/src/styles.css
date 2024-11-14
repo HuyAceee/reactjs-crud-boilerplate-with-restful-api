@@ -1,0 +1,13 @@
+.AntAutoComplete__container {
+  width: 100%;
+}
+
+.AntAutoComplete__loading {
+  padding-bottom: 16px;
+  padding-top: 16px;
+  text-align: center;
+}
+
+.AntAutoComplete__readOnly {
+  pointer-events: none;
+}

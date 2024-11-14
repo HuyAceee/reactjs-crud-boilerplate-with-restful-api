@@ -1,0 +1,7 @@
+.AntCheckbox__container .yy-checkbox-indeterminate .yy-checkbox-inner::after {
+  border-radius: 2px;
+}
+
+.AntCheckbox__readOnly {
+  pointer-events: none;
+}

@@ -1,0 +1,11 @@
+.AntBarChart__container {
+  overflow: hidden;
+  position: relative;
+}
+
+.AntBarChart__tooltipPlaceholder {
+  height: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+}

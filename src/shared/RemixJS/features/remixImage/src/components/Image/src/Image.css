@@ -1,0 +1,27 @@
+img.Image__container {
+  transition: 0.125s filter ease-in-out;
+  filter: blur(0px);
+}
+
+img.Image__container.blur {
+  filter: blur(15px);
+}
+
+.Image__container.blur-in {
+  filter: blur(0px);
+  animation-name: blurIn;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+}
+
+@keyframes blurIn {
+  0% {
+    filter: blur(15px);
+  }
+  100% {
+    filter: blur(0px);
+    background: white;
+  }
+}

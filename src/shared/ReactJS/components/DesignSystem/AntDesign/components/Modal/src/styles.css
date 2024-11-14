@@ -1,0 +1,52 @@
+.AntModal__container .yy-modal-content {
+  padding: 0;
+}
+
+.AntModal__container .yy-modal-header {
+  border-bottom: 1px solid var(--yy-color-border);
+  margin-bottom: 0;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 16px;
+}
+
+.AntModal__container .yy-modal-footer {
+  border-top: 1px solid var(--yy-color-border);
+  margin-top: 0px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 16px;
+}
+.AntModal__container .yy-modal-footer:empty {
+  display: none;
+}
+
+.AntModal__container .yy-modal-body {
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 16px;
+}
+
+.AntModal__footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.AntModal__buttons {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.AntModal--footerSticky .yy-modal-footer {
+  background-color: inherit;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  bottom: 0px;
+  position: sticky;
+  z-index: 2;
+}

@@ -1,0 +1,55 @@
+.FormMutation__Footer {
+  display: flex;
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-right: -16px;
+  margin-left: -16px;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-top: 1px solid var(--yy-color-split);
+  background-color: #ffffff;
+}
+
+@media (min-width: 640px) {
+  .FormMutation__Footer {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .FormMutation__Footer {
+    margin-right: -32px;
+    margin-left: -32px;
+  }
+}
+
+.FormMutation__Buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.FormMutation__Left {
+  flex: 1 1 0%;
+}
+
+.FormMutation__Header {
+  display: flex;
+  margin-bottom: 16px;
+  gap: 12px;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.FormMutation__Back {
+  cursor: pointer;
+}

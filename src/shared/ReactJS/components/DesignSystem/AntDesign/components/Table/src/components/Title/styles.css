@@ -1,0 +1,40 @@
+.AntTableTitle__container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.AntTableTitle__settingsViewTrigger {
+  cursor: pointer;
+  font-size: var(--yy-font-size-xl);
+}
+
+.AntTableTitle__settingsViewContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 180px;
+}
+
+.AntTableTitle__settingsViewContentHeader {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+  justify-content: space-between;
+  padding: var(--yy-popover-inner-padding);
+  padding-bottom: 0px;
+}
+
+.AntTableTitle__listColumns {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 196px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: var(--yy-popover-inner-padding);
+}
+
+.AntTableTitle__popover .yy-popover-inner {
+  padding: 0px !important;
+}
